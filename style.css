@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue; /* Default Background */
+    color: #333;
+}
+
+.hidden {
+    display: none;
+}
+
+#auth, #todo {
+    text-align: center;
+    padding: 20px;
+}
+
+input, select, button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Clock Styles */
+#clock {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Color Picker Buttons */
+.color-btn {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.color-btn:hover {
+    opacity: 0.8;
+}
+
+/* Motivational Quote */
+#motivational-quote {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    animation: fade-in-out 5s ease; /* Animation duration updated */
+    color: #333;
+}
+
+/* Quote Animation */
+@keyframes fade-in-out {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+}
